@@ -1,0 +1,28 @@
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+main{
+    flex: 1 0 auto;
+
+}
+
+nav.navbar{
+    background-color: rgb(8, 8, 123);
+}
+footer{
+    background-color: rgb(8, 8, 123);
+
+}
+#registerButton,#loginButton{
+    background-color: rgb(8, 8, 123);
+}
+#LoginCard,#handelLoginPage,#HomePage,#handelLogoutPage{
+    display: none;
+}
+#do,#donot{
+    text-decoration: none;
+    border: none;
+    background-color: white;
+}
